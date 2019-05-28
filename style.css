@@ -123,6 +123,12 @@ header img {
     background-color: white;
     margin-top: 28px;
     margin-left: 22.4px;
+    text-align: center;
+}
+
+#box_3 img {
+    width: 130px;
+    padding-top: 15%;
 }
 
 #box_4 {
@@ -661,6 +667,10 @@ body {
 
     #box_3 {
         margin-top: 0px;
+    }
+
+    #box_3 img {
+        padding-top: 25%;
     }
 
     #box_4 {
