@@ -735,3 +735,55 @@ body {
     }
 
 }
+
+@media only screen and (max-width:320px) {
+    #box_1 {
+        margin-left: 0px;
+    }
+
+    #box_3 {
+        margin-left: 0px;
+    }
+
+    #project-1 {
+        margin-left: 4%;
+        width: 300px;
+        height: 184px;
+    }
+
+    #project-1 img {
+        width: 204px;
+        height: 86px;
+    }
+
+    #project-2 {
+        margin-left: 4%;
+        width: 300px;
+        height: 184px;
+    }
+
+    #project-2 img {
+        width: 224px;
+        height: 108px;
+    }
+
+    #project-3 {
+        margin-left: 4%;
+        width: 300px;
+        height: 184px;
+    }
+
+    #project-4 {
+        margin-left: 4%;
+        width: 300px;
+        height: 184px;
+    }
+
+    #project-4 img {
+        width: 226px;
+        height: 83px;
+        margin-left: 13%;
+    }
+
+
+}
