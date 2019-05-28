@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    top: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 121px;
+    background-image: linear-gradient(to right, #001A3F, #002558);
+    position: sticky;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    display: block;
+    line-height: 182px;
+    text-align: right;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #E3E2E2;
+    font-size: 23px;
+    display: inline;
+    padding-right: 33px;
+    line-height: 182px;
+}
+
+.menu a:hover {
+    color: #75A0DD;
+}
+
+label {
+    font-size: 26px;
+    color: #E3E2E2;
+    display: none;
+    line-height: 121px;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+header img {
+    width: 102px;
+    height: 91px;
+    padding-left: 31px;
+    padding-top: 15px;
+    position: relative;
+    display: inline;
+    float: left;
+}
+
+@media only screen and (max-width:768px) {
+    label {
+        display: block;
+        cursor: pointer;
+        font-size: 43px;
+        padding-right: 28px;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #00193D;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        line-height: 72px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+
+/* START HOMEPAGE */
+
+#slider {
+    background-image: url(chuj.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+#boxes {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: auto;
+    padding-top: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 28px;
+}
+
+#box_1 {
+    width: 136.14px;
+    height: 136.14px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-left: 22.4px;
+}
+
+#box_2 {
+    width: 136.14px;
+    height: 136.14px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-left: 29px;
+}
+
+#box_3 {
+    width: 136.14px;
+    height: 136.14px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-top: 28px;
+    margin-left: 22.4px;
+}
+
+#box_4 {
+    width: 136.14px;
+    height: 136.14px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-top: 28px;
+    margin-left: 29px;
+}
+
+.txt_box{
+    text-align: center;
+    margin-top: 23%;
+    font-size: 14px;
+    color: #3E3E3E;
+    padding-left:0px;
+}
+
+.txt_box-2{
+    text-align: center;
+    margin-top: 35%;
+    font-size: 14px;
+    color: #3E3E3E;
+    padding-left:0px;
+}
+
+#projekty {
+    width: 100%;
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-image: linear-gradient(#001A3F, #002558);
+}
+
+#project-1 {
+    background-color: #F5F5F5;
+    width: 335px;
+    height: 219px;
+    margin-left: 20px;
+}
+
+#project-1 img{
+    margin-top:20%;
+    margin-left: 15%;
+    width: 234px;
+    height: 106px;
+}
+
+#project-2 {
+    background-color: #F5F5F5;
+    width: 335px;
+    height: 219px;
+    margin-left: 20px;
+    margin-top: 28px;
+}
+
+#project-2 img{
+    margin-top:10%;
+    margin-left: 10%;
+    width: 274px;
+    height: 158px;
+}
+
+#project-3 {
+    background-color: #F5F5F5;
+    width: 335px;
+    height: 219px;
+    margin-left: 20px;
+    margin-top: 28px;
+}
+
+
+#project-4 {
+    background-color: #F5F5F5;
+    width: 335px;
+    height: 219px;
+    margin-left: 20px;
+    margin-top: 28px;
+}
+
+#project-4 img{
+    margin-top:17%;
+    margin-left: 5%;
+    width: 306px;
+    height: 102px;
+}
+
+.nasze_projekty {
+    color: #E3E2E2;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* -----Kontakt------ */
+
+#contact {
+    background-color: #F5F5F5;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+#contact_1 {
+    background-color: #001634;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    height: 63vh;
+}
+
+.nasz_projekty_1 {
+    color: #E3E2E2;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.nasz_projekty {
+    color: #3E3E3E;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.adres_1 {
+    color: #E3E2E2;
+    padding-top: 28px;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.adres {
+    color: #3E3E3E;
+    padding-top: 28px;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #001634;
+    width: 100%;
+    height: 77.91px;
+    clear: both;
+}
+
+footer p {
+    color: #C4C3C3;
+    text-align: left;
+    padding-top: 13px;
+    font-size: 13px;
+    padding-left: 8px;
+}
+
+/*  O FIRMIE  */
+
+.obrazek {
+    margin-left: 24px;
+}
+
+.obrazek_ciemne_tlo {
+    height: auto;
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-color: #001636;
+}
+
+.obrazek_ciemne_tlo_jeden {
+    margin-left: 24px;
+}
+
+.obrazek_biale_tlo {
+    height: auto;
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-color: #F5F5F5;
+}
+
+.obrazek img {
+    width: 327px;
+    height: 218px;
+}
+
+.obrazek_ciemne_tlo_jeden img {
+    width: 327px;
+    height: 218px;
+}
+
+.tekst_obrazek_ciemne {
+    font-size: 21px;
+    height: 178px;
+    width: 317px;
+    text-align: center;
+    padding-top: 28px;
+    margin-left: 29px;
+    color: #E3E2E2;
+}
+
+.tekst_obrazek {
+    font-size: 21px;
+    height: 178px;
+    width: 317px;
+    text-align: center;
+    padding-top: 28px;
+    margin-left: 29px;
+    color: #3E3E3E;
+}
+
+/* OFERTA */
+
+.obrazek_oferta {
+    width: 100%;
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.odnosnik {
+    width: 185.71px;
+    height: 76.07px;
+    background-color: #00183C;
+    border-radius: 22px;
+    text-align: center;
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 76.07px;
+    margin-left: 95px;
+}
+
+.odnosnik_2 {
+    width: 185.71px;
+    height: 76.07px;
+    background-color: #00183C;
+    border-radius: 22px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 28px;
+    vertical-align: middle;
+    line-height: 76.07px;
+    margin-left: 95px;
+}
+
+.obrazek_oferta a {
+    text-decoration: none;
+    color: #E3E2E2;
+    margin-top: 12px;
+}
+
+/* SPEEDWAY */
+
+#speedway-container {
+    height: 64vh;
+    background-color: #F5F5F5;
+    color: #3E3E3E;
+    text-align: center;
+    padding-top: 123px;
+    font-size: 21px;
+}
+
+#speedway-container-dark {
+    height: 64vh;
+    background-color: #01193E;
+    color: #E3E2E2;
+    text-align: center;
+    padding-top: 123px;
+    font-size: 21px;
+}
+
+
+
+.speedway-obrazek {
+    width: 115px;
+    height: 109px;
+    padding-top: 28px;
+    padding-left: 35%;
+
+}
+
+.speedway-obrazek-2 {
+    width: 115px;
+    height: 109px;
+    padding-top: 28px;
+    padding-left: 30%;
+
+}
+
+.speedway-obrazek-3 {
+    width: 115px;
+    height: 109px;
+    padding-top: 28px;
+    padding-left: 35%;
+
+}
+
+/* Zespol */
+
+.photo-person {
+    padding-top: 28px;
+}
+
+.photo-person img {
+    width: 233px;
+    height: 156px;
+}
+
+.ludzie {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.ludzie h1 {
+    color: #3E3E3E;
+    font-size: 34px;
+    font-style: italic;
+    padding-bottom: 23px;
+    padding-top: 23px;
+}
+
+.ludzie p {
+    color: #3E3E3E;
+    padding-bottom: 23px;
+    padding-top: 12px;
+    font-size: 17px;
+    padding-left: 80.5px;
+    padding-right: 80.5px;
+    text-align: center;
+}
+
+/*dla_sportu*/
+#oferta_dla_sportu {
+    font-size: 25px;
+    font-style: italic;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 14.5px;
+    padding-right: 14.5px;
+    text-align: center;
+    background-color: #F5F5F5;
+    color: #3E3E3E;
+}
+
+#strzalki {
+    background-color: #01193E;
+    color: #E3E2E2;
+}
+
+#strzalki_ph1 h1 {
+    padding-left: 12px;
+    color: #E3E2E2;
+}
+
+#strzalki h1 {
+    font-size: 46px;
+    font-style: bold;
+    padding-top: 28px;
+}
+
+#strzalki p {
+    font-size: 23px;
+    padding-top: 12px;
+}
+
+#strzalki ul {
+    padding-left: 34px;
+}
+
+#strzalki li {
+    font-size: 15px;
+}
+
+#strzalki ul {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#strzalki li {
+    font-size: 20px;
+    list-style-image: url(jeszcze_mniejszy_arrow.png);
+    margin-top: 10px;
+}
+
+.back_bttn {
+    background-color: #00183C;
+    padding-top: 63px;
+    padding-bottom: 28px;
+}
+
+.button_sport {
+    width: 185.71px;
+    height: 76.07px;
+    background-color: #A9CC67;
+    border-radius: 22px;
+    text-align: center;
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 76.07px;
+    margin-left: 95px;
+    opacity: 82%;
+}
+
+.button_sport a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+
+/*dla biznesu*/
+#oferta_dla_biznesu {
+    font-size: 25px;
+    font-style: italic;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 14.5px;
+    padding-right: 14.5px;
+    text-align: center;
+    background-color: #F5F5F5;
+    color: #3E3E3E;
+}
+
+#strzalki2 {
+    background-color: #01193E;
+    color: #E3E2E2;
+}
+
+#strzalki2_ph1 h1,
+p {
+    padding-left: 12px;
+}
+
+#strzalki2 h1 {
+    font-size: 46px;
+    font-style: bold;
+    padding-top: 28px;
+}
+
+#strzalki2 p {
+    font-size: 23px;
+    font-style: regular;
+    padding-top: 12px;
+}
+
+#strzalki2 ul {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#strzalki2 li {
+    font-size: 20px;
+    list-style-image: url(jeszcze_mniejszy_arrow.png);
+    margin-top: 10px;
+}
+
+.back_bttn {
+    background-color: #00183C;
+    padding-top: 63px;
+    padding-bottom: 28px;
+}
+
+.button_sport {
+    width: 185.71px;
+    height: 76.07px;
+    background-color: #A9CC67;
+    border-radius: 22px;
+    text-align: center;
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 76.07px;
+    margin-left: 95px;
+    opacity: 82%;
+}
+
+.button_sport a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+/* Partnerzy */
+
+#partnerzy_duzo {
+    width: 100%;
+    background-color: #F5F5F5;
+    color: #3E3E3E;
+    height: auto;
+}
+
+.heading-partnerzy {
+    font-size: 46px;
+    color: #3E3E3E;
+    font-weight: bold;
+    padding-left: 31px;
+    padding-top: 28px;
+}
+
+.partnerzy_foto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0px 10px 45px;
+}
+
+.partnerzy_foto img {
+    padding: 8px;
+}
+
+.second-header {
+    padding-left: 31px;
+    padding-top: 8px;
+    font-size: 23px;
+}
+
+.padding_str {
+    padding-top: 0px;
+}
+
+/* siema lemi */
+
+body {
+    background-color: #F5F5F5;
+}
+
+
+/* RWD */
+
+@media only screen and (min-width:768px) {
+    #boxes {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #box_3 {
+        margin-top: 0px;
+    }
+
+    #box_4 {
+        margin-top: 0px;
+    }
+
+    #projekty {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nasz_projekty {
+        text-align: left;
+        margin-left: 70px;
+    }
+
+    .adres {
+        float: left;
+        margin-left: 40px;
+        padding-top: 200px;
+        padding-bottom: 28px;
+    }
+
+    .obrazek_biale_tlo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .obrazek_ciemne_tlo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .odnosnik {
+        margin-left: 304px;
+    }
+
+    .odnosnik_2 {
+        margin-left: 304px;
+    }
+
+    .obrazki-partnerzy {
+        margin-left: 55px;
+    }
+
+    #contact_1 {
+        height: 75vh;
+    }
+
+    .nasz_projekty_1 {
+        text-align: left;
+        margin-left: 38px;
+        margin-top: 120px;
+    }
+
+    .adres_1 {
+        float: left;
+        margin-left: 30px;
+        padding-top: 200px;
+        padding-bottom: 28px;
+    }
+
+}
