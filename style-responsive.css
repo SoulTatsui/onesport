@@ -1,11 +1,13 @@
 @media only screen and (min-width:1024px) {
 
-
+    #boxes {
+        margin-left: 50px;
+    }
 
     .txt_box {
         font-size: 20px;
         text-align: center;
-        margin-top: 15%;
+        margin-top:15%;
     }
 
     .txt_box-2 {
@@ -17,25 +19,21 @@
     #box_1 {
         width: 172px;
         height: 172px;
-        margin-left: 30%;
     }
 
     #box_2 {
         width: 172px;
         height: 172px;
-        margin-left: 30%;
     }
 
     #box_3 {
         width: 172px;
         height: 172px;
-        margin-left: 30%;
     }
 
     #box_4 {
         width: 172px;
         height: 172px;
-        margin-left: 30%;
     }
 
     #project-2 {
@@ -179,7 +177,7 @@
     .ludzie {
         width: 25%;
         float: left;
-        height: 25%;
+        height: 550px;
     }
 
     .heading-partnerzy {

@@ -122,6 +122,14 @@ header img {
     background-color: white;
     margin-top: 28px;
     margin-left: 22.4px;
+    text-align: center;
+}
+
+
+#box_3 img {
+    width: 130px;
+    padding-top: 15%;
+
 }
 
 #box_4 {
@@ -133,20 +141,20 @@ header img {
     margin-left: 29px;
 }
 
-.txt_box{
+.txt_box {
     text-align: center;
     margin-top: 23%;
     font-size: 14px;
     color: #3E3E3E;
-    padding-left:0px;
+    padding-left: 0px;
 }
 
-.txt_box-2{
+.txt_box-2 {
     text-align: center;
     margin-top: 35%;
     font-size: 14px;
     color: #3E3E3E;
-    padding-left:0px;
+    padding-left: 0px;
 }
 
 #projekty {
@@ -164,8 +172,8 @@ header img {
     margin-left: 20px;
 }
 
-#project-1 img{
-    margin-top:20%;
+#project-1 img {
+    margin-top: 20%;
     margin-left: 15%;
     width: 234px;
     height: 106px;
@@ -179,8 +187,8 @@ header img {
     margin-top: 28px;
 }
 
-#project-2 img{
-    margin-top:10%;
+#project-2 img {
+    margin-top: 10%;
     margin-left: 10%;
     width: 274px;
     height: 158px;
@@ -203,8 +211,8 @@ header img {
     margin-top: 28px;
 }
 
-#project-4 img{
-    margin-top:17%;
+#project-4 img {
+    margin-top: 17%;
     margin-left: 5%;
     width: 306px;
     height: 102px;
@@ -660,6 +668,10 @@ body {
 
     #box_3 {
         margin-top: 0px;
+    }
+
+    #box_3 img {
+        padding-top: 25%;
     }
 
     #box_4 {

@@ -24,7 +24,6 @@ header {
     display: inline;
     padding-right: 33px;
     line-height: 182px;
-    position: sticky;
 }
 
 .menu a:hover {
@@ -126,9 +125,11 @@ header img {
     text-align: center;
 }
 
+
 #box_3 img {
     width: 130px;
     padding-top: 15%;
+
 }
 
 #box_4 {
@@ -731,201 +732,6 @@ body {
         margin-left: 30px;
         padding-top: 200px;
         padding-bottom: 28px;
-    }
-
-}
-
-@media only screen and (min-width:1024px) {
-
-    .txt_box {
-        font-size: 20px;
-        text-align: center;
-        margin-top: 15%;
-    }
-
-    .txt_box-2 {
-        font-size: 20px;
-        text-align: center;
-        margin-top: 30%;
-    }
-
-    #box_1 {
-        width: 172px;
-        height: 172px;
-        margin-left: 30%;
-    }
-
-    #box_2 {
-        width: 172px;
-        height: 172px;
-        margin-left: 30%;
-    }
-
-    #box_3 {
-        width: 172px;
-        height: 172px;
-        margin-left: 30%;
-    }
-
-    #box_4 {
-        width: 172px;
-        height: 172px;
-        margin-left: 30%;
-    }
-
-    #project-2 {
-        margin-top: 0px;
-    }
-
-    .container_projekty {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-
-    /*dla sportu*/
-
-    #oferta_dla_sportu {
-        padding-top: 118px;
-        padding-bottom: 118px;
-        padding-right: 440.5px;
-        padding-left: 440.5px;
-    }
-
-    #strzalki {
-        padding-left: 210px;
-    }
-
-    .button_sport {
-        margin-left: 45%;
-    }
-
-    /*dla biznesu*/
-    #oferta_dla_biznesu {
-        padding-top: 115px;
-        padding-bottom: 115px;
-        padding-right: 440.5px;
-        padding-left: 440.5px;
-    }
-
-    #strzalki2 {
-        padding-left: 210px;
-    }
-
-
-    /* ----- Kontakt ------ */
-
-    .nasz_projekty_1 {
-        padding-left: 9%;
-    }
-
-
-    .adres_1 {
-        padding-left: 11%
-    }
-
-    .nasz_projekty {
-        margin-top: 28px;
-        padding-left: 9%;
-    }
-
-    .adres {
-        padding-left: 11%;
-        text-align: left;
-    }
-
-    /*oferta*/
-    .odnosnik {
-        margin-left: 45%;
-    }
-
-    .odnosnik_2 {
-        margin-left: 45%;
-    }
-
-    /*--------O firmie----------- */
-
-    .obrazek {
-        padding-top: 151px;
-        padding-bottom: 151px;
-        display: grid;
-        justify-content: center;
-    }
-
-    .obrazek_ciemne_tlo_jeden {
-        padding-top: 151px;
-        padding-bottom: 151px;
-        display: grid;
-        justify-content: center;
-    }
-
-    .tekst_obrazek_ciemne {
-        display: grid;
-        align-content: center;
-        padding-top: 163px;
-        padding-left: 80px;
-    }
-
-    .tekst_obrazek {
-        padding-top: 163px;
-        padding-left: 80px;
-        display: grid;
-        align-content: center;
-    }
-
-    /*speedway*/
-    #speedway-container {
-        padding-left: 440.5px;
-        padding-right: 440.5px;
-    }
-
-    #speedway-container-dark {
-        padding-left: 440.5px;
-        padding-right: 440.5px;
-    }
-
-    .speedway-obrazek {
-        padding-left: 40%;
-    }
-
-    .speedway-obrazek-2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-left: 20%;
-    }
-
-    #photou21 {
-        padding-left: 20%;
-    }
-
-    #photosbp {
-        padding-top: 10%;
-    }
-
-    .speedway-obrazek-3 {
-        padding-left: 40%;
-    }
-
-
-
-
-    /* --------Zespol------- */
-
-    .ludzie {
-        width: 25%;
-        float: left;
-        height: 25%;
-    }
-
-    .heading-partnerzy {
-        width: 100%;
-
-    }
-
-    /* PARTNERZY */
-
-    .partnerzy_foto {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
 }
