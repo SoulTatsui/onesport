@@ -80,6 +80,7 @@ header img {
 
     #toggle:checked + .menu {
         display: block;
+        background-color: #00193D;
     }
 }
 
