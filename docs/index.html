@@ -9,9 +9,26 @@
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script type="text/javascript" src="index.js"></script>
+    <script>
+        function touchScroll(id) {
+            var el = document.getElementById(id);
+            var scrollStartPos = 0;
+
+            document.getElementById(id).addEventListener("touchstart", function(event) {
+                scrollStartPos = this.scrollTop + event.touches[0].pageY;
+                event.preventDefault();
+            }, false);
+
+            document.getElementById(id).addEventListener("touchmove", function(event) {
+                this.scrollTop = scrollStartPos - event.touches[0].pageY;
+                event.preventDefault();
+            }, false);
+        }
+
+    </script>
 </head>
 
-<body>
+<body onload="touchScroll('header')">
     <header>
         <a href="index.html"><img src="onesportLogo.png"></a>
         <label for="toggle">&#9776;</label>
