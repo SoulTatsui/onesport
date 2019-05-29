@@ -785,5 +785,32 @@ body {
         margin-left: 13%;
     }
 
+    .obrazek img {
+        width: 307px;
+        height: 198px;
+    }
+
+    .obrazek {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .obrazek_ciemne_tlo_jeden img {
+        width: 307px;
+        height: 198px;
+    }
+
+    .obrazek_ciemne_tlo_jeden {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .tekst_obrazek_ciemne {
+        margin-left: 0px;
+    }
+
+    .tekst_obrazek {
+        margin-left: 0px;
+    }
 
 }
