@@ -24,6 +24,8 @@ header {
     display: inline;
     padding-right: 33px;
     line-height: 182px;
+    position: sticky;
+
 }
 
 .menu a:hover {
